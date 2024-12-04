@@ -23,6 +23,10 @@ require_once PLZ_PATH."/includes/API/api-login.php";
 require_once PLZ_PATH."/public/shortcode/form-registro.php";
 require_once PLZ_PATH."/public/shortcode/form-login.php";
 
+//Blocks
+
+require_once PLZ_PATH. '/blocks/register/index.php';
+
 
 function plz_plugin_activar(){
     add_role('cliente',"Cliente","read_post");
