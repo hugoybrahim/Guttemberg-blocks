@@ -26,6 +26,7 @@ require_once PLZ_PATH."/public/shortcode/form-login.php";
 //Blocks
 
 require_once PLZ_PATH. '/blocks/register/index.php';
+require_once PLZ_PATH. '/blocks/news/index.php';
 
 
 function plz_plugin_activar(){
