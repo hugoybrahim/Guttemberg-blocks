@@ -24,6 +24,10 @@ registerBlockType("plz/register", {
         passwordLabel: {
             type: "string",
             default: "Password"
+        },
+        text: {
+            source: "html",
+            selector: "p"
         }
     },
     edit,
