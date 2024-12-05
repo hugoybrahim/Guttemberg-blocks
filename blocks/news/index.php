@@ -1,5 +1,5 @@
 <?php
-
+//This is the function render
 function plz_news_render_callback($block_attributes, $block_content) {
     $block_classes = isset($block_attributes['className']) 
         ? $block_attributes['className'. 'wp-block-pla-news'] 
